@@ -13,6 +13,8 @@ Both actions take the list of NPC names Mantella sends, so in a group conversati
 
 Mantella's own Follow and Unfollow actions are not changed. In Mantella's action settings, turn on either Mantella's Follow/Unfollow or the two Horde actions, not both.
 
+Download: [Nexus Mods](https://www.nexusmods.com/skyrimspecialedition/mods/196589) or the [GitHub releases](https://github.com/Abhisek571/Mantella-Horde-Followers/releases).
+
 ## Requirements
 
 - [Mantella - Bring NPCs to Life with AI](https://www.nexusmods.com/skyrimspecialedition/mods/98631) 0.14
