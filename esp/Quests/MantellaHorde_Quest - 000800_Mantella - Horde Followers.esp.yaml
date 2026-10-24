@@ -1,0 +1,32 @@
+FormKey: 000800:Mantella - Horde Followers.esp
+EditorID: MantellaHorde_Quest
+VirtualMachineAdapter:
+  Scripts:
+  - Name: MantellaHorde_Main
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CurrentFollowerFaction
+      Object: 05C84E:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CurrentHireling
+      Object: 0BD738:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DialogueFollower
+      Object: 0750BA:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DismissedFollowerFaction
+      Object: 05C84C:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: HordeFollowerFaction
+      Object: 00082F:Horde.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerRef
+      Object: 000014:Skyrim.esm
+  FileName: ''
+Name:
+  TargetLanguage: English
+  Value: Mantella Horde Followers
+Flags:
+- StartGameEnabled
+- RunOnce
+NextAliasID: 0

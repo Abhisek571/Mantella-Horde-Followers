@@ -1,0 +1,25 @@
+{
+    "identifier": "mantella_horde_dismiss",
+    "name": "Leave Party (Horde)",
+    "description": "Make NPC(s) leave the player's Horde party.",
+    "note": "Needs Horde and Mantella - Horde Followers. Use this instead of Mantella's Unfollow action; enable only one of the two.",
+    "key": "LeaveParty",
+    "enabled": true,
+    "parameters": {
+        "source": {
+            "type": "array",
+            "description": "The NPC(s) leaving the party.",
+            "items": {"type": "string"},
+            "scope": "conversation"
+        }
+    },
+    "required": ["source"],
+    "prompt": "If the player tells you to stop following them, go home or leave their party, or you decide to leave the party yourself, begin your response with '{key}:'",
+    "allowed_games": ["skyrim"],
+    "requires_response": false,
+    "is-interrupting": false,
+    "allow_repeat": false,
+    "one-on-one": true,
+    "multi-npc": true,
+    "radiant": false
+}

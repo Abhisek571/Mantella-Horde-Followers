@@ -1,0 +1,25 @@
+{
+    "identifier": "mantella_horde_follow",
+    "name": "Join Party (Horde)",
+    "description": "Make NPC(s) join the player's party as Horde followers.",
+    "note": "Needs Horde and Mantella - Horde Followers. Use this instead of Mantella's Follow action; enable only one of the two.",
+    "key": "JoinParty",
+    "enabled": true,
+    "parameters": {
+        "source": {
+            "type": "array",
+            "description": "The NPC(s) willing to join the party.",
+            "items": {"type": "string"},
+            "scope": "conversation"
+        }
+    },
+    "required": ["source"],
+    "prompt": "If the player asks you to follow them, travel with them or join their party, and you are thoroughly convinced to do so, begin your response with '{key}:'",
+    "allowed_games": ["skyrim"],
+    "requires_response": false,
+    "is-interrupting": false,
+    "allow_repeat": false,
+    "one-on-one": true,
+    "multi-npc": true,
+    "radiant": false
+}
