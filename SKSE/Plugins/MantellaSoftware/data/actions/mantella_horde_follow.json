@@ -1,6 +1,6 @@
 {
     "identifier": "mantella_horde_follow",
-    "name": "Join Party (Horde)",
+    "name": "JoinPartyHorde",
     "description": "Make NPC(s) join the player's party as Horde followers.",
     "note": "Needs Horde and Mantella - Horde Followers. Use this instead of Mantella's Follow action; enable only one of the two.",
     "key": "JoinParty",
