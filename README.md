@@ -15,6 +15,10 @@ Mantella's own Follow and Unfollow actions are not changed. In Mantella's action
 
 Download: [Nexus Mods](https://www.nexusmods.com/skyrimspecialedition/mods/196589) or the [GitHub releases](https://github.com/Abhisek571/Mantella-Horde-Followers/releases).
 
+## Future development
+
+While building this I found Horde too limited for what I want to do: other mods can't tell its followers to wait, follow or stay passive. Further work will continue in a separate mod built on Nether's Follower Framework. This mod stays available and works as described here.
+
 ## Requirements
 
 - [Mantella - Bring NPCs to Life with AI](https://www.nexusmods.com/skyrimspecialedition/mods/98631) 0.14
